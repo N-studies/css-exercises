@@ -5,12 +5,78 @@ body {
 img {
   width: 100px;
   height: 100px;
+  
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  
 }
+
+.text{
+text-align: center;
+
+
+}
+
+.mid{
+  display: flex;
+  gap: 36px;
+  /*border: 1px solid black;*/
+  margin-top: 32px;
+  
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid blue;*/
+  align-items: center;
+  gap: 10px;
+  margin-right: 52px;
+  flex: 1;
+  width: 200px;
+  
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid red;*/
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  margin-right: 52px;
+  width: 200px;
+  
+
+}
+
+.three {
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid green;*/
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  margin-right: 52px;
+  width: 200px;
+  
+}
+
+.four {
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid yellow;*/
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  width: 200px;
+  
+}
+/* Can consolidate this into one thing with one class! */
 
 /* do not edit this footer */
 .footer {
